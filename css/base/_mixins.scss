@@ -1,0 +1,42 @@
+$main-color: #f1ead7;
+$button-color: #446D91;
+$main-color-brown: #8A3032;
+$main-text: #777;
+$main-color-menu: #F7A70F;
+
+@mixin button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 35px;
+    background: $button-color;
+    font-size: 16px;
+    border-radius: 35px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        background: $main-color;
+        color: $main-color-brown;
+        border: 1px solid $main-color-brown;
+        transition-duration: 0.5s;
+    }
+}
+
+@mixin button-xs {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: $button-color;
+    background: $main-color;
+    padding: 10px 20px;
+    border: 1px solid $button-color;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    &:hover {
+        background: #FFE9C4;
+    }
+}

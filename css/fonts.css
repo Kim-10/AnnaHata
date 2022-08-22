@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'FiraSans';
+    src: url('../fonts/FiraSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'FiraSans Medium';
+    src: url('../fonts/FiraSans-Medium.ttf') format('truetype');
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'FiraSans Bold';
+    src: url('../fonts/FiraSans-Bold.ttf') format('truetype');
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'FiraSans Black';
+    src: url('../fonts/FiraSans-Black.ttf') format('truetype');
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'FiraSans Thin';
+    src: url('../fonts/FiraSans-Thin.ttf') format('truetype');
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Decorative';
+    src: url('../fonts/CinzelDecorative-Regular.ttf') format('truetype');
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Decorative Bold';
+    src: url('../fonts/CinzelDecorative-Bold.ttf') format('truetype');
+    font-style: normal;
+    }
